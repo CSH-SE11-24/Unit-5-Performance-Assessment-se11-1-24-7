@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="home.html">
+        <img src="logo.png" alt="logo" style="width: 7vw;" id="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+          <a class="nav-link" href="past.html">Past</a>
+          <a class="nav-link" href="current.html">Current</a>
+          <a class="nav-link" href="future.html">Future</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Information about the global warming in the past -->
+  <div class="container" style="margin-top: 5vh;">
+    <div class="row">
+        <div class="imgFit">
+          <img src="past/tempP.png" alt="weather in the past" class="centerImg">
+        </div>
+        <h1 class="title">How Did the Global Warming Look Like in the Past?</h1>
+
+      <p class="para">Because of the enormous size and heat capacity of the global oceans, it would require a significant amount of additional heat to raise the Earth's annual average surface temperature, even if only by a small amount. </p>
+
+        <p class="para">Since the pre-industrial era (1850-1900 in NOAA's records), the global average surface temperature has increased by about 2 degrees Fahrenheit (1 degree Celsius), which may seem small, but it represents a significant increase in accumulated heat. </p>
+
+      <p class="para">That extra heat is driving regional and seasonal temperature extremes, reducing snow cover and sea ice, intensifying heavy rainfall, and changing habitat ranges for plants and animals—expanding some and shrinking others. </p>
+
+      <!-- Button to show the image if the user wants to -->
+      <button type="button" id="geoBtnP">Click for Visualized</button>
+      <div class="imgFit">
+        <img id="geoWeatherP" class="centerImg">
+      </div>
+
+      <p class="para">Most land areas have warmed faster than most ocean areas, and the Arctic is warming faster than most other regions. In addition, it's clear that the rate of warming over the past few decades is much faster than the average rate since the start of the 20th century. </p>
+
+    </div>
+  </div>
+
+  
+
+
+
+
+  <script src="scriptP.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

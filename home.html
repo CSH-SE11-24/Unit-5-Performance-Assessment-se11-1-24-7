@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="home.html">
+        <img src="logo.png" alt="logo" style="width: 7vw;" id="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+          <a class="nav-link" href="past.html">Past</a>
+          <a class="nav-link" href="current.html">Current</a>
+          <a class="nav-link" href="future.html">Future</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Links to different pages with cards -->
+  <!-- Reference links are in the dropdown arrow button -->
+  <div class="container" style="margin-top: 5vh;">
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6 col-sm-12" style="margin-top: 10px; margin-bottom: 10px;">
+        <div class="card">
+          <img src="introP.jpg" class="card-img-top introImg" alt="past img" style="object-fit: cover; height: 45vh;">
+          <div class="card-body">
+            <h5 class="card-title" style="font-weight: 600; font-size: 20px;">Global Warming in the Past</h5>
+            <p class="card-text">When we talk about global warming, we usually focus on the dramatic changes in these
+              few decades. But we can actually see such accumulations over the past few decades.</p>
+
+            <div class="btn-group">
+              <a href="past.html" class="btn btn-primary">Info</a>
+              <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="visually-hidden">Toggle Dropdown</span>
+              </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item"
+                      href="https://www.climate.gov/news-features/understanding-climate/climate-change-global-temperature">Reference #1</a></li>
+                  <li><a class="dropdown-item"
+                      href="https://www.ncei.noaa.gov/access/monitoring/monthly-report/global/202313">Reference #2</a></li>
+                </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12" style="margin-bottom: 10px;">
+        <div class="card">
+          <img src="introC.jpg" class="card-img-top introImg" alt="current img"
+            style="object-fit: cover; height: 45vh;">
+          <div class="card-body">
+            <h5 class="card-title" style="font-weight: 600; font-size: 20px;">Global Warming in the Current</h5>
+            <p class="card-text">While the cumulative changes of the last few decades are important, what most people
+              want to know is: how is global warming affecting our lives RIGHT NOW?</p>
+
+            <div class="btn-group">
+              <a href="current.html" class="btn btn-primary">Info</a>
+              <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="visually-hidden">Toggle Dropdown</span>
+              </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item"
+                      href="https://www.climate.gov/news-features/understanding-climate/climate-change-global-temperature">Reference #1</a></li>
+                  <li><a class="dropdown-item"
+                      href="https://www.ncei.noaa.gov/access/monitoring/monthly-report/global/202313">Reference #2</a></li>
+                </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12" style="margin-bottom: 10px;">
+        <div class="card">
+          <img src="introF.jpg" class="card-img-top introImg" alt="future img" style="object-fit: cover; height: 45vh;">
+          <div class="card-body">
+            <h5 class="card-title" style="font-weight: 600; font-size: 20px;">Global Warming in the Future</h5>
+            <p class="card-text">When we mention the current global warming situation, we have to mention what such a
+              trend will look like in the future. Well, for most of us, the future isn't that far away.</p>
+
+            <div class="btn-group">
+              <a href="future.html" class="btn btn-primary">Info</a>
+              <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="visually-hidden">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item"
+                    href="https://www.climate.gov/news-features/understanding-climate/climate-change-global-temperature">Reference #1</a></li>
+                <li><a class="dropdown-item"
+                    href="https://www.ncei.noaa.gov/access/monitoring/monthly-report/global/202313">Reference #2</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
